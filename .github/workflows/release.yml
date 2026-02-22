@@ -45,7 +45,7 @@ jobs:
       - name: Package
         run: |
           mkdir -p dist
-          cp target/${{ matrix.target }}/release/claude-settings-lsp dist/
+          cp claude-settings-lsp/target/${{ matrix.target }}/release/claude-settings-lsp dist/
           cd dist
           tar czf ../claude-settings-lsp-${{ matrix.target }}.tar.gz claude-settings-lsp
 
