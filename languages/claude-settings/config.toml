@@ -1,0 +1,3 @@
+name = "Claude Settings"
+grammar = "json"
+path_suffixes = ["claude/settings.json", "claude/settings.local.json"]
