@@ -1,2 +1,4 @@
 /target
 /claude-settings-lsp/target
+/extension.wasm
+/grammars
