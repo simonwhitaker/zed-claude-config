@@ -41,7 +41,7 @@ impl zed::Extension for ClaudeConfigExtension {
 
         // Download from GitHub releases
         let release = zed::latest_github_release(
-            "simonw/zed-claude-config",
+            "simonwhitaker/zed-claude-config",
             zed::GithubReleaseOptions {
                 require_assets: true,
                 pre_release: false,
