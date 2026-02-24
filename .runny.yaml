@@ -1,6 +1,6 @@
 commands:
   build:
-    run: cargo build
+    run: cd claude-settings-lsp && cargo build
     cwd: claude-settings-lsp
   release:
     argnames:
